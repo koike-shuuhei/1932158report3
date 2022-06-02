@@ -43,8 +43,8 @@
 
         // テクスチャー読み込み
         var textureLoader = new THREE.TextureLoader();  
-        var texture = textureLoader.load("cit.png");
-        var mat = new THREE.MeshPhongMaterial( {color: 0x0000ff} );
+        var texture = textureLoader.load("stone.png");
+        var mat = new THREE.MeshPhongMaterial( );
         mat.map = texture;
 
         // 箱を作成
