@@ -44,7 +44,7 @@
         // テクスチャー読み込み
         var textureLoader = new THREE.TextureLoader();  
         var texture = textureLoader.load("daiya.png");
-        var mat = new THREE.MeshPhongMaterial( {color: 0x0000ff} );
+        var mat = new THREE.MeshPhongMaterial( );
         mat.map = texture;
 
         // 箱を作成
